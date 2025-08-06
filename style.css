@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,Futura;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 30px;
+    height: 20px;
+}
+
+.left ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.left li {
+    display: flex;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.right ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right li {
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav2 {
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.left2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.left2 li {
+    display: flex;
+    margin-right: 10px;
+    font-size: small;
+    font-size: larger;
+}
+
+.center2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.center2 li {
+    display: flex;
+    margin-right: 10px;
+    font-size: small;
+    font-size: larger;
+}
+
+.right2 ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.right2 li {
+    display: flex;
+    margin-right: 10px;
+    font-size: larger;
+}
+
+.logo {
+    height: 70px;
+    width: 150px;
+    padding-bottom: 40px;
+
+}
+
+.marquee {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.parallax {
+   
+    background-image: url("./assets/cakebg.jpg");
+    min-height: 966.4px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.p1 {
+    color: white;
+    text-align: center;
+    padding-top: 350px;
+    font-size: 25px;
+}
+
+.p2 {
+    font-size: 59px;
+}
+
+.p3 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.centered {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 40px;
+    right: 40px;
+    transform: translateY(-50%);
+}
+.hero2 {
+ position: relative;
+}
+.text-block {
+        position: absolute;
+        background-color: white;
+        left: 30px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+        width: 30%;
+    }
+.ficons ul{
+    display: flex;
+}
+.ficons li{
+    font-size: x-large;
+    margin-right: 5px;
+}
